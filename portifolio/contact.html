@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    
+    <script src="https://kit.fontawesome.com/9f4e0bc681.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/stylesheet.css">
+    <script src="javascript.js"></script>
+
+</head>
+
+<body>
+    <div class="white">
+
+    </div>
+    <h2 id="contact">contact me</h2>
+    <p id="note">I AM FREE TO CHAT, TO LEARN AND TO COLLABORATE</p>
+
+    <form class="form" action="mailto:danatgutema@gmail.com" method="POST" name="form" id="form_id" enctype="multipart/form-data">
+        <div>
+            <!--<label for="name" id="name">Name</label>-->
+
+            <input type="text" id="input1" placeholder="Your Full Name" required name="name">
+        </div>
+        <br>
+        <div>
+            <!--<label for="email" id="email">Email</label>-->
+            <input type="email" id="input2" placeholder="Your Email id" required name="email">
+        </div>
+        <br>
+        <div>
+            <!--<label for="subject"  id="subject">Subject</label>  action="mailto:danatgutema@gmail.com"-->
+            <input type="text" id="input3" placeholder="subject" required name="subject">
+        </div>
+         <br>
+         <div>
+           <!--<label for="message" id="message">Message</label>-->
+            <textarea name="message" id="input4" cols="30" rows="10" placeholder="Drop your message here" required></textarea>
+         </div>-->
+            <br>
+
+            <button id="submit" onclick="sendContact();">
+              send
+            </button>
+            <!--<input type="button" id="submit" name="submit" value="send">-->
+
+    </form>
+    <div class="icons">
+        <span title="HOME">
+            <a href="/index.html" target="_blank"><i class="fa-solid fa-house fa-3x" id="house"></i></a>
+        </span>
+        <span title="about me">
+            <a href="/about.html" target="_blank"><i class="fa-solid fa-user fa-3x" id="user"></i></a>
+        </span>
+        <span title="contact me">
+            <a href="/contact.html" target="_blank"><i class="fa-solid fa-envelope fa-3x" id="envelope"></i></a>
+        </span>
+
+
+
+
+
+    </div>
+    <div>
+        <span title="Github">
+            <a href="https://github.com/DanatGutema" target="_blank"><i class="fa-brands fa-github fa-3x"
+                    id="github"></i></a>
+        </span>
+        <span title="Linkedin">
+            <a href="https://www.linkedin.com/in/danat-gutema-a59014250/" target="_blank"><i
+                    class="fa-brands fa-linkedin fa-3x" id="linkedin"></i></a>
+
+        </span>
+
+        <span title="instagram">
+            <a href="https://www.instagram.com/danat.gutema/">
+                <i class="fa-brands fa-square-instagram fa-3x" id="insta"></i>
+            </a>
+            
+        </span>
+
+        <span title="WhatsApp">
+            
+            <a href="https://wa.me/251913202560">
+                <i class="fa-brands fa-whatsapp fa-3x" fa-3x id="whatsapp"></i>
+            </a>
+            
+        </span>
+
+        <span title="twitter">
+            <i class="fa-brands fa-twitter fa-3x" id="twitter"></i>
+        </span>
+
+    </div>
+</body>
+
+</html>
+
